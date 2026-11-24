@@ -1,0 +1,108 @@
+[
+  {
+    "id": "d3ff0030-f772-4cff-acde-2365bd1747f9",
+    "name": "Ana Beatriz",
+    "email": "ana.beatriz@carmatch.test",
+    "provider": "email",
+    "whatsapp": "+5511919765824",
+    "createdAt": "2026-11-22T02:42:09.732Z",
+    "verifications": {
+      "email": true,
+      "phone": true,
+      "cpf": true,
+      "cnh": true,
+      "selfie": true,
+      "residence": true
+    }
+  },
+  {
+    "id": "8bcfca4e-e053-4993-98d1-34d29d997ee6",
+    "name": "Carlos Henrique",
+    "email": "carlos.henrique@carmatch.test",
+    "provider": "email",
+    "whatsapp": "+5511923345212",
+    "createdAt": "2026-11-22T02:42:09.743Z",
+    "verifications": {
+      "email": true,
+      "phone": true,
+      "cpf": true,
+      "cnh": true
+    }
+  },
+  {
+    "id": "86d6767f-bbb6-4879-adcc-4f5d53c9cb13",
+    "name": "Juliana Prado",
+    "email": "juliana.prado@carmatch.test",
+    "provider": "email",
+    "whatsapp": "+5511921484247",
+    "createdAt": "2026-11-22T02:42:09.751Z"
+  },
+  {
+    "id": "b478e9ec-4bfd-4f9d-9fc2-0ca3ee81d2c7",
+    "name": "Roberto Lima",
+    "email": "roberto.lima@carmatch.test",
+    "provider": "email",
+    "whatsapp": "+5511920771537",
+    "createdAt": "2026-11-22T02:42:09.761Z",
+    "verifications": {
+      "email": true,
+      "phone": true,
+      "cpf": true,
+      "cnh": true,
+      "selfie": true,
+      "residence": true
+    }
+  },
+  {
+    "id": "2ea40c07-4566-4219-aff0-83b82265ed62",
+    "name": "Fernanda Alves",
+    "email": "fernanda.alves@carmatch.test",
+    "provider": "email",
+    "whatsapp": "+5511922244471",
+    "createdAt": "2026-11-22T02:42:09.770Z",
+    "verifications": {
+      "email": true,
+      "phone": true,
+      "cpf": true,
+      "cnh": true
+    }
+  },
+  {
+    "id": "404ca74f-6286-46a2-834a-bf02c20c3ef0",
+    "name": "Marcos Vinícius",
+    "email": "marcos.vinicius@carmatch.test",
+    "provider": "email",
+    "whatsapp": "+5511923424402",
+    "createdAt": "2026-11-22T02:42:09.782Z"
+  },
+  {
+    "id": "7d1a621b-917b-47af-b600-1b3000f0c3e6",
+    "name": "Patrícia Nunes",
+    "email": "patricia.nunes@carmatch.test",
+    "provider": "email",
+    "whatsapp": "+5511922466203",
+    "createdAt": "2026-11-22T02:42:09.794Z",
+    "verifications": {
+      "email": true,
+      "phone": true,
+      "cpf": true,
+      "cnh": true,
+      "selfie": true,
+      "residence": true
+    }
+  },
+  {
+    "id": "51fecf8f-7d28-488d-a2e4-6197ee0e3424",
+    "name": "Thiago Moreira",
+    "email": "thiago.moreira@carmatch.test",
+    "provider": "email",
+    "whatsapp": "+5511922379094",
+    "createdAt": "2026-11-22T02:42:09.805Z",
+    "verifications": {
+      "email": true,
+      "phone": true,
+      "cpf": true,
+      "cnh": true
+    }
+  }
+]

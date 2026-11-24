@@ -1,0 +1,117 @@
+@import "tailwindcss";
+
+/*
+  CarMatch Preço design tokens.
+
+  The identity is "financeiro / análise": amber over warm neutrals, the palette
+  of a spreadsheet you can trust rather than the default blue SaaS look. Token
+  NAMES stay `ink-*` / `brand-*` so every existing screen keeps working —
+  only the values changed.
+
+  Warm greys (not pure grey) keep the amber from looking pasted on; the brand
+  ramp is amber/orange with brand-600 dark enough for white text on buttons
+  (AA contrast) and brand-500 reserved for borders/rings.
+*/
+@theme {
+  --color-ink-50: #fbf8f3;
+  --color-ink-100: #f5efe6;
+  --color-ink-200: #e8dfd1;
+  --color-ink-300: #d6c8b4;
+  --color-ink-400: #a9977d;
+  --color-ink-500: #7f6f58;
+  --color-ink-600: #5f5240;
+  --color-ink-700: #433a2d;
+  --color-ink-800: #2b251c;
+  --color-ink-900: #1b1711;
+
+  --color-brand-50: #fff8ec;
+  --color-brand-100: #ffefd2;
+  --color-brand-200: #ffdda4;
+  --color-brand-300: #fccb70;
+  --color-brand-400: #fbbf24;
+  --color-brand-500: #f59e0b;
+  --color-brand-600: #b45309;
+  --color-brand-700: #92400e;
+  --color-brand-800: #78350f;
+
+  --radius-card: 0.875rem;
+}
+
+@layer base {
+  html {
+    -webkit-text-size-adjust: 100%;
+  }
+
+  body {
+    font-family:
+      -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue",
+      Arial, sans-serif;
+    background: var(--color-ink-50);
+    color: var(--color-ink-900);
+    /* A barely-there amber wash at the top ties the page to the brand without
+       competing with content. */
+    background-image: linear-gradient(
+      to bottom,
+      rgba(245, 158, 11, 0.06),
+      rgba(251, 248, 243, 0) 320px
+    );
+    background-repeat: no-repeat;
+  }
+
+  /* One consistent focus treatment; brand-600 (not 500) so the ring clears
+     3:1 against white cards. */
+  :focus-visible {
+    outline: 2px solid var(--color-brand-600);
+    outline-offset: 2px;
+    border-radius: 4px;
+  }
+
+  ::selection {
+    background: var(--color-brand-100);
+    color: var(--color-ink-900);
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+    }
+  }
+}
+
+@layer components {
+  .input-field {
+    @apply w-full rounded-lg border border-ink-200 bg-white px-3 py-2.5 text-sm
+      text-ink-900 placeholder:text-ink-400 transition-colors
+      focus:border-brand-500 focus:outline-none focus-visible:outline-none
+      focus:ring-4 focus:ring-brand-500/10;
+  }
+
+  .btn-primary {
+    @apply inline-flex items-center justify-center gap-2 rounded-lg bg-brand-600
+      px-4 py-2.5 text-sm font-semibold text-white transition-colors
+      hover:bg-brand-700 disabled:cursor-not-allowed disabled:opacity-60;
+  }
+
+  .btn-ghost {
+    @apply inline-flex items-center justify-center gap-2 rounded-lg border
+      border-ink-200 bg-white px-3 py-2 text-sm font-medium text-ink-700
+      transition-colors hover:border-ink-300 hover:bg-ink-50;
+  }
+
+  .card {
+    @apply rounded-[var(--radius-card)] border border-ink-200 bg-white;
+  }
+
+  .chip {
+    @apply inline-flex items-center gap-1 rounded-full bg-ink-100 px-2.5 py-1
+      text-[11px] font-medium text-ink-600;
+  }
+
+  .skeleton {
+    @apply animate-pulse rounded-md bg-ink-100;
+  }
+}

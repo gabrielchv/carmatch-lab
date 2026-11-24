@@ -1,0 +1,35 @@
+[
+  {
+    "id": "ef1b9ded-b9ab-463b-87bd-989ec2f47b25",
+    "userId": "16401681-3bf9-4676-83e3-87bbaad90854",
+    "name": "Cronos por T-Cross",
+    "kind": "match",
+    "have": {
+      "brand": "Fiat",
+      "model": "CRONOS",
+      "year": 2024
+    },
+    "want": {
+      "brand": "VW - VolksWagen",
+      "model": "T-Cross"
+    },
+    "createdAt": "2026-11-22T02:29:43.130Z"
+  },
+  {
+    "id": "f60f68c1-4ba5-4a85-b572-dc37eb299d5b",
+    "userId": "1e64dbe9-e180-4927-a681-825156f85ff8",
+    "name": "Cronos por T-Cross",
+    "kind": "match",
+    "have": {
+      "brand": "Fiat",
+      "model": "CRONOS",
+      "year": 2024
+    },
+    "want": {
+      "brand": "VW - VolksWagen",
+      "model": "T-Cross"
+    },
+    "createdAt": "2026-11-22T02:29:50.922Z",
+    "lastNotifiedAt": "2026-11-22T02:29:51.747Z"
+  }
+]

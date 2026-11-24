@@ -1,0 +1,66 @@
+[
+  {
+    "id": "c0b15e63-c02b-440b-8ca9-18ec196a2665",
+    "name": "Ana Beatriz",
+    "email": "ana.beatriz@carmatch.test",
+    "provider": "email",
+    "whatsapp": "+5511919765824",
+    "createdAt": "2026-11-22T02:33:59.354Z"
+  },
+  {
+    "id": "28b6190c-6d49-4415-9b33-f0dc5a8adcfb",
+    "name": "Carlos Henrique",
+    "email": "carlos.henrique@carmatch.test",
+    "provider": "email",
+    "whatsapp": "+5511923345212",
+    "createdAt": "2026-11-22T02:33:59.364Z"
+  },
+  {
+    "id": "f1e6e88f-8640-40f6-9c8f-5513cd491180",
+    "name": "Juliana Prado",
+    "email": "juliana.prado@carmatch.test",
+    "provider": "email",
+    "whatsapp": "+5511921484247",
+    "createdAt": "2026-11-22T02:33:59.372Z"
+  },
+  {
+    "id": "f13d3f30-3f81-49c1-92a5-282faf57b8ac",
+    "name": "Roberto Lima",
+    "email": "roberto.lima@carmatch.test",
+    "provider": "email",
+    "whatsapp": "+5511920771537",
+    "createdAt": "2026-11-22T02:33:59.385Z"
+  },
+  {
+    "id": "73e8962c-82f2-4e4a-bcf7-29b29f06865f",
+    "name": "Fernanda Alves",
+    "email": "fernanda.alves@carmatch.test",
+    "provider": "email",
+    "whatsapp": "+5511922244471",
+    "createdAt": "2026-11-22T02:33:59.394Z"
+  },
+  {
+    "id": "5f4e7ebc-5701-4c5f-8c03-6bf5aeec9137",
+    "name": "Marcos Vinícius",
+    "email": "marcos.vinicius@carmatch.test",
+    "provider": "email",
+    "whatsapp": "+5511923424402",
+    "createdAt": "2026-11-22T02:33:59.404Z"
+  },
+  {
+    "id": "17d41ff4-0af7-4609-8b69-8eac10141acc",
+    "name": "Patrícia Nunes",
+    "email": "patricia.nunes@carmatch.test",
+    "provider": "email",
+    "whatsapp": "+5511922466203",
+    "createdAt": "2026-11-22T02:33:59.413Z"
+  },
+  {
+    "id": "fb3c1db4-7297-4ba8-b396-6fa7614d2a57",
+    "name": "Thiago Moreira",
+    "email": "thiago.moreira@carmatch.test",
+    "provider": "email",
+    "whatsapp": "+5511922379094",
+    "createdAt": "2026-11-22T02:33:59.421Z"
+  }
+]
