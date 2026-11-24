@@ -1,0 +1,112 @@
+@import "tailwindcss";
+
+/*
+  CarMatch design tokens.
+
+  The v0 screens each picked their own greys, radii and font sizes, so the app
+  read as a set of unrelated pages. Everything visual now comes from the values
+  below, which keeps the interface coherent without changing the flows.
+*/
+@theme {
+  /*
+    Neutrals carry a faint teal cast: verified documents, not a generic SaaS
+    dashboard. Contrast ratios stay close to the original scale.
+  */
+  --color-ink-50: #f6f9f8;
+  --color-ink-100: #ecf2f0;
+  --color-ink-200: #dce6e2;
+  --color-ink-300: #c2d1cb;
+  --color-ink-400: #93a39c;
+  --color-ink-500: #67786f;
+  --color-ink-600: #4a5a52;
+  --color-ink-700: #34423b;
+  --color-ink-800: #222d27;
+  --color-ink-900: #131b17;
+
+  /*
+    Emerald brand. Trust, safety, bank-like. brand-600 is emerald-700 rather
+    than emerald-500 on purpose: small text and white-on-brand buttons (the
+    most common combination here) need WCAG AA on white.
+  */
+  --color-brand-50: #ecfdf5;
+  --color-brand-100: #d1fae5;
+  --color-brand-200: #a7f3d0;
+  --color-brand-300: #6ee7b7;
+  --color-brand-400: #34d399;
+  --color-brand-500: #10b981;
+  --color-brand-600: #047857;
+  --color-brand-700: #065f46;
+  --color-brand-800: #064e3b;
+
+  --radius-card: 0.875rem;
+}
+
+@layer base {
+  html {
+    -webkit-text-size-adjust: 100%;
+  }
+
+  body {
+    font-family:
+      -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue",
+      Arial, sans-serif;
+    background: var(--color-ink-50);
+    color: var(--color-ink-900);
+  }
+
+  /* One consistent focus treatment; the original relied on browser defaults
+     that were invisible on white cards. */
+  :focus-visible {
+    outline: 2px solid var(--color-brand-500);
+    outline-offset: 2px;
+    border-radius: 4px;
+  }
+
+  ::selection {
+    background: var(--color-brand-100);
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+    }
+  }
+}
+
+@layer components {
+  .input-field {
+    @apply w-full rounded-lg border border-ink-200 bg-white px-3 py-2.5 text-sm
+      text-ink-900 placeholder:text-ink-400 transition-colors
+      focus:border-brand-500 focus:outline-none focus-visible:outline-none
+      focus:ring-4 focus:ring-brand-500/10;
+  }
+
+  .btn-primary {
+    @apply inline-flex items-center justify-center gap-2 rounded-lg bg-brand-600
+      px-4 py-2.5 text-sm font-semibold text-white transition-colors
+      hover:bg-brand-700 disabled:cursor-not-allowed disabled:opacity-60;
+  }
+
+  .btn-ghost {
+    @apply inline-flex items-center justify-center gap-2 rounded-lg border
+      border-ink-200 bg-white px-3 py-2 text-sm font-medium text-ink-700
+      transition-colors hover:border-ink-300 hover:bg-ink-50;
+  }
+
+  .card {
+    @apply rounded-[var(--radius-card)] border border-ink-200 bg-white;
+  }
+
+  .chip {
+    @apply inline-flex items-center gap-1 rounded-full bg-ink-100 px-2.5 py-1
+      text-[11px] font-medium text-ink-600;
+  }
+
+  .skeleton {
+    @apply animate-pulse rounded-md bg-ink-100;
+  }
+}

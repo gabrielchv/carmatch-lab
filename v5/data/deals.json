@@ -1,0 +1,140 @@
+[
+  {
+    "id": "9cdaf5c3-ca3f-4883-ab28-f0ba69ef03a4",
+    "matchId": "b3920c12-3d97-4b72-98e1-16545a9deb53",
+    "postAId": "4be8154e-71f9-419f-bb2e-8ecd441ced10",
+    "postBId": "65e9fe2d-f397-4ba9-920c-305337e89704",
+    "userAId": "1231a644-f774-4397-9cb0-8b37849d2ba3",
+    "userBId": "d0c54d41-3160-4481-9cd3-0b353bd1a131",
+    "cashFromA": -15000,
+    "stage": "aceite",
+    "taskStates": {
+      "proposta:termos:A": {
+        "done": true,
+        "doneAt": "2026-11-21T14:04:43.968Z",
+        "doneBy": "1231a644-f774-4397-9cb0-8b37849d2ba3"
+      },
+      "proposta:contato:A": {
+        "done": true,
+        "doneAt": "2026-11-21T14:04:44.000Z",
+        "doneBy": "1231a644-f774-4397-9cb0-8b37849d2ba3"
+      },
+      "proposta:termos:B": {
+        "done": true,
+        "doneAt": "2026-11-21T14:04:44.029Z",
+        "doneBy": "d0c54d41-3160-4481-9cd3-0b353bd1a131"
+      },
+      "proposta:contato:B": {
+        "done": true,
+        "doneAt": "2026-11-21T14:04:44.061Z",
+        "doneBy": "d0c54d41-3160-4481-9cd3-0b353bd1a131"
+      }
+    },
+    "history": [
+      {
+        "at": "2026-11-21T14:04:38.762Z",
+        "by": "1231a644-f774-4397-9cb0-8b37849d2ba3",
+        "from": null,
+        "to": "proposta",
+        "note": "Negociação aberta a partir de um match."
+      },
+      {
+        "at": "2026-11-21T14:04:44.164Z",
+        "by": "1231a644-f774-4397-9cb0-8b37849d2ba3",
+        "from": "proposta",
+        "to": "aceite",
+        "note": "Etapa Proposta concluída."
+      }
+    ],
+    "createdAt": "2026-11-21T14:04:38.762Z",
+    "updatedAt": "2026-11-21T14:04:44.164Z"
+  },
+  {
+    "id": "ca300622-a9e6-4096-be1f-a66ece2abd5c",
+    "matchId": "d4fa0b07-deb3-4b34-9c78-1eea5d0b876e",
+    "postAId": "82ee31b4-a273-4864-9a7a-2bd294bc87e8",
+    "postBId": "2c8ef77f-6fb6-4af7-a2b6-09ccf071ad07",
+    "userAId": "8c859529-516d-438d-9d23-152bb12b6cd5",
+    "userBId": "ec0c3440-6799-4e87-9f66-986b6a05b6c0",
+    "cashFromA": -14236,
+    "stage": "proposta",
+    "taskStates": {},
+    "history": [
+      {
+        "at": "2026-11-21T15:37:40.212Z",
+        "by": "8c859529-516d-438d-9d23-152bb12b6cd5",
+        "from": null,
+        "to": "proposta",
+        "note": "Negociação aberta a partir de um match."
+      }
+    ],
+    "createdAt": "2026-11-21T15:37:40.212Z",
+    "updatedAt": "2026-11-21T15:37:40.212Z"
+  },
+  {
+    "id": "8a99e310-bc3b-4c80-a4bf-5b4766b9fa35",
+    "matchId": "3641da72-cfa9-4058-b386-301ec1a756fb",
+    "postAId": "dfb77780-06f7-4947-b6c9-00f510d24b59",
+    "postBId": "82bedf65-025b-48d3-9fee-b4dae0ca5af3",
+    "userAId": "6322c5dd-ce3f-4c18-8796-b8b7c7e77423",
+    "userBId": "bec036a8-a70c-4eef-92d7-88f1ed3370c0",
+    "cashFromA": -14236,
+    "stage": "proposta",
+    "taskStates": {},
+    "history": [
+      {
+        "at": "2026-11-21T15:38:22.459Z",
+        "by": "6322c5dd-ce3f-4c18-8796-b8b7c7e77423",
+        "from": null,
+        "to": "proposta",
+        "note": "Negociação aberta a partir de um match."
+      }
+    ],
+    "createdAt": "2026-11-21T15:38:22.459Z",
+    "updatedAt": "2026-11-21T15:38:22.459Z"
+  },
+  {
+    "id": "ed2f5305-bd08-4ace-bffd-9fce4ad0473c",
+    "matchId": "67f281bf-bab4-4748-b032-a8e42bf1012a",
+    "postAId": "0435224c-1376-47aa-a678-15bd27a27e31",
+    "postBId": "e2d384ce-2e1e-43d0-b4ff-3e265bee8caf",
+    "userAId": "22dc0037-43d8-4d12-b419-4ed01dd034e9",
+    "userBId": "7f84e43a-2fa4-4791-b323-4b35c8d41b66",
+    "cashFromA": -14236,
+    "stage": "proposta",
+    "taskStates": {},
+    "history": [
+      {
+        "at": "2026-11-21T15:39:10.919Z",
+        "by": "22dc0037-43d8-4d12-b419-4ed01dd034e9",
+        "from": null,
+        "to": "proposta",
+        "note": "Negociação aberta a partir de um match."
+      }
+    ],
+    "createdAt": "2026-11-21T15:39:10.919Z",
+    "updatedAt": "2026-11-21T15:39:10.919Z"
+  },
+  {
+    "id": "81699c83-aa4a-4b0e-aa1e-067d7414a578",
+    "matchId": "e644d43b-fb1b-4ac5-bcba-5bdf941d8308",
+    "postAId": "98bc7e3c-3a11-463f-8a93-799dd88af549",
+    "postBId": "e6337638-1136-423c-a184-868f86c49165",
+    "userAId": "436bd21b-2249-47c2-825a-188ddd504ff8",
+    "userBId": "8a647187-b29f-46d5-b46e-cd0388c10c8b",
+    "cashFromA": -14236,
+    "stage": "proposta",
+    "taskStates": {},
+    "history": [
+      {
+        "at": "2026-11-21T19:19:58.668Z",
+        "by": "436bd21b-2249-47c2-825a-188ddd504ff8",
+        "from": null,
+        "to": "proposta",
+        "note": "Negociação aberta a partir de um match."
+      }
+    ],
+    "createdAt": "2026-11-21T19:19:58.668Z",
+    "updatedAt": "2026-11-21T19:19:58.668Z"
+  }
+]

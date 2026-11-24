@@ -1,0 +1,61 @@
+steps:
+  - name: "gcr.io/cloud-builders/docker"
+    args:
+      - "build"
+      - "-t"
+      - "southamerica-east1-docker.pkg.dev/$PROJECT_ID/carmatch-app/carmatch:latest"
+      - "-t"
+      - "southamerica-east1-docker.pkg.dev/$PROJECT_ID/carmatch-app/carmatch:$BUILD_ID"
+      - "."
+
+  - name: "gcr.io/cloud-builders/docker"
+    args:
+      - "push"
+      - "southamerica-east1-docker.pkg.dev/$PROJECT_ID/carmatch-app/carmatch"
+
+  - name: "gcr.io/google.com/cloudsdktool/cloud-sdk"
+    entrypoint: gcloud
+    args:
+      - "run"
+      - "deploy"
+      - "carmatch"
+      - "--image"
+      - "southamerica-east1-docker.pkg.dev/$PROJECT_ID/carmatch-app/carmatch:$BUILD_ID"
+      - "--region"
+      - "southamerica-east1"
+      - "--execution-environment"
+      - "gen2"
+      - "--add-volume"
+      - "name=data,type=cloud-storage,bucket=carmatch-data-499019"
+      - "--add-volume-mount"
+      - "volume=data,mount-path=/app/data"
+      - "--add-volume"
+      - "name=uploads,type=cloud-storage,bucket=carmatch-uploads-499019"
+      - "--add-volume-mount"
+      - "volume=uploads,mount-path=/app/public/uploads"
+      - "--allow-unauthenticated"
+      - "--min-instances"
+      - "0"
+      - "--max-instances"
+      - "1"
+      - "--cpu-boost"
+      - "--memory"
+      - "512Mi"
+      - "--cpu"
+      - "1"
+      - "--concurrency"
+      - "80"
+      - "--timeout"
+      - "300"
+
+images:
+  - "southamerica-east1-docker.pkg.dev/$PROJECT_ID/carmatch-app/carmatch:latest"
+
+# SESSION_SECRET is not set here on purpose: it is a secret and must not live
+# in a file that is committed. Set it once on the service instead:
+#
+#   gcloud run services update carmatch --region southamerica-east1 \
+#     --update-env-vars SESSION_SECRET="$(openssl rand -base64 32)"
+#
+# Subsequent deploys via --source (deploy.sh) merge into the existing env vars,
+# so the value is preserved across revisions.

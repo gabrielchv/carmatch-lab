@@ -1,0 +1,33 @@
+# Dependências
+node_modules/
+
+# Build do Next
+.next/
+.next.prod-*/
+out/
+build/
+dist/
+
+# Artefatos do laboratório
+tests/.builds/
+tools/.cache/
+tools/.logs/
+backups/
+playwright-report/
+test-results/
+*.tsbuildinfo
+*.orig
+
+# Segredos — os exemplos ficam, os valores reais não
+.env
+.env.local
+.env.live
+.env.*.local
+
+# Fotos enviadas nos anúncios (ficam no bucket, não no git)
+public/uploads/*
+!public/uploads/.gitkeep
+
+# Sistema
+.DS_Store
+Thumbs.db

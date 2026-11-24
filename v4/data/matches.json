@@ -1,0 +1,20 @@
+[
+  {
+    "id": "ae192a33-8d2d-4989-95c5-4519e517ff91",
+    "postAId": "3067787a-67f6-40d8-9383-062a608dc28e",
+    "postBId": "5b433d3a-fafc-42ea-9235-d6400b1134fc",
+    "score": 62,
+    "suggestedCashFromA": 15599,
+    "status": "pending",
+    "createdAt": "2026-11-21T19:19:56.221Z"
+  },
+  {
+    "id": "b3578847-cb3e-4a37-98da-0f182715729c",
+    "postAId": "b09bb98c-77c3-4493-aa7d-347101eea71e",
+    "postBId": "a4de21c9-2e08-42c1-b254-b616d9b6f9d4",
+    "score": 66,
+    "suggestedCashFromA": 14236,
+    "status": "pending",
+    "createdAt": "2026-11-21T19:19:56.221Z"
+  }
+]

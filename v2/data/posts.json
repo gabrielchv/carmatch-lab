@@ -1,0 +1,793 @@
+[
+  {
+    "id": "58c3c502-cfe5-4524-9820-06e19547b87e",
+    "userId": "f8e4c2a6-77e7-47a3-b4af-e5721d43e1b2",
+    "title": "Honda Fit CX 1.4 Flex 16V 5p Aut. 2014",
+    "description": "Ana troca Honda Fit CX 1.4 Flex 16V 5p Aut. 2014. Carro 2014 · 108.500 km · Flex · documento em dia, IPVA pago. Aceita troca por modelo equivalente com acerto em dinheiro.",
+    "car": {
+      "brand": "Honda",
+      "model": "Fit CX 1.4 Flex 16V 5p Aut.",
+      "year": 2014,
+      "estimatedValue": 53211,
+      "mileage": 108500,
+      "color": "Branco",
+      "localization": "São Paulo - SP",
+      "fipeBrandId": "25",
+      "fipeModelCode": "6613",
+      "fipeYearCode": "2014-5"
+    },
+    "desiredTrade": {
+      "vehicles": [
+        {
+          "brand": "Fiat",
+          "model": "ARGO",
+          "yearMin": 2019,
+          "yearMax": 2023,
+          "mileageMax": 99000,
+          "cashAdjustment": 1117,
+          "cashAdjustmentTolerance": 600,
+          "fipeBrandId": "21",
+          "fipeVersionCode": "7965"
+        }
+      ]
+    },
+    "contactInfo": {
+      "whatsapp": "+5511971959801",
+      "email": "ana.beatriz@carmatch.test"
+    },
+    "images": [
+      "e0d8b6e8-d177-4ba0-b654-12f102a4f0db.jpg",
+      "a399339b-94f8-4a8a-b938-a5adc2443721.jpg"
+    ],
+    "createdAt": "2026-11-21T19:19:52.223Z",
+    "isActive": true,
+    "dossier": {
+      "inspection": true,
+      "confirmedAt": {
+        "inspection": "2026-11-21T19:19:53.787Z",
+        "serviceHistory": "2026-11-21T19:19:53.802Z",
+        "singleOwner": "2026-11-21T19:19:53.832Z"
+      },
+      "serviceHistory": true,
+      "singleOwner": true
+    }
+  },
+  {
+    "id": "3a05fcdb-dac5-4b33-b73b-555f472ba5d6",
+    "userId": "9526f385-f452-41c0-8d56-268b4d4be155",
+    "title": "Fiat ARGO DRIVE 1.0 6V Flex 2021",
+    "description": "Juliana troca Fiat ARGO DRIVE 1.0 6V Flex 2021. Carro 2021 · 69.000 km · Flex · documento em dia, IPVA pago. Aceita troca por modelo equivalente com acerto em dinheiro.",
+    "car": {
+      "brand": "Fiat",
+      "model": "ARGO DRIVE 1.0 6V Flex",
+      "year": 2021,
+      "estimatedValue": 54328,
+      "mileage": 69000,
+      "color": "Marrom",
+      "localization": "Campinas - SP",
+      "fipeBrandId": "21",
+      "fipeModelCode": "7965",
+      "fipeYearCode": "2021-5"
+    },
+    "desiredTrade": {
+      "vehicles": [
+        {
+          "brand": "Toyota",
+          "model": "Corolla",
+          "transmission": "Automático",
+          "yearMin": 2024,
+          "yearMax": 2028,
+          "mileageMax": 43500,
+          "cashAdjustment": 102571,
+          "cashAdjustmentTolerance": 7200,
+          "fipeBrandId": "56",
+          "fipeVersionCode": "11635"
+        }
+      ]
+    },
+    "contactInfo": {
+      "whatsapp": "+5511927825147",
+      "email": "juliana.prado@carmatch.test"
+    },
+    "images": [
+      "71f34e91-f7a8-4464-bd3c-bba3a1ca2038.jpg",
+      "17d7cc01-b5ad-4892-92d0-d1541a4fd1f8.jpg"
+    ],
+    "createdAt": "2026-11-21T19:19:52.238Z",
+    "isActive": true,
+    "dossier": {
+      "inspection": true,
+      "confirmedAt": {
+        "inspection": "2026-11-21T19:19:53.891Z"
+      }
+    }
+  },
+  {
+    "id": "e907ed58-23a2-4c46-8e12-5980a789e404",
+    "userId": "fb3da0ed-cd3d-42c7-a917-2a6c6d7e3e3f",
+    "title": "Toyota Corolla GLi 1.8 16V Aut. 2026",
+    "description": "Fernanda troca Toyota Corolla GLi 1.8 16V Aut. 2026. Carro 2026 · 13.500 km · Híbrido · documento em dia, IPVA pago. Aceita troca por modelo equivalente com acerto em dinheiro.",
+    "car": {
+      "brand": "Toyota",
+      "model": "Corolla GLi 1.8 16V Aut.",
+      "year": 2026,
+      "estimatedValue": 156899,
+      "mileage": 13500,
+      "color": "Vermelho",
+      "localization": "Santos - SP",
+      "fipeBrandId": "56",
+      "fipeModelCode": "11635",
+      "fipeYearCode": "2026-6"
+    },
+    "desiredTrade": {
+      "vehicles": [
+        {
+          "brand": "Honda",
+          "model": "Fit",
+          "transmission": "Automático",
+          "yearMin": 2012,
+          "yearMax": 2016,
+          "mileageMax": 138500,
+          "cashAdjustment": -103688,
+          "cashAdjustmentTolerance": 7300,
+          "fipeBrandId": "25",
+          "fipeVersionCode": "6613"
+        }
+      ]
+    },
+    "contactInfo": {
+      "whatsapp": "+5511917962271",
+      "email": "fernanda.alves@carmatch.test"
+    },
+    "images": [
+      "f8324de2-2bdd-4127-84d8-8be6fbaf7c4a.jpg",
+      "caf66f06-3bcf-401e-ba3d-1c3994b75b5d.jpg"
+    ],
+    "createdAt": "2026-11-21T19:19:52.252Z",
+    "isActive": true
+  },
+  {
+    "id": "94bf5c49-d561-4a25-bfd4-8b3791f3baa1",
+    "userId": "1f552a93-8051-42a9-a942-a8337167213b",
+    "title": "Ford Ka SEL 1.5 16V Flex 5p 2017",
+    "description": "Roberto troca Ford Ka SEL 1.5 16V Flex 5p 2017. Carro 2017 · 118.500 km · Flex · documento em dia, IPVA pago. Aceita troca por modelo equivalente com acerto em dinheiro.",
+    "car": {
+      "brand": "Ford",
+      "model": "Ka SEL 1.5 16V Flex 5p",
+      "year": 2017,
+      "estimatedValue": 42392,
+      "mileage": 118500,
+      "color": "Azul",
+      "localization": "Belo Horizonte - MG",
+      "fipeBrandId": "22",
+      "fipeModelCode": "6917",
+      "fipeYearCode": "2017-5"
+    },
+    "desiredTrade": {
+      "vehicles": [
+        {
+          "brand": "GM - Chevrolet",
+          "model": "ONIX",
+          "transmission": "Manual",
+          "yearMin": 2018,
+          "yearMax": 2022,
+          "mileageMax": 104000,
+          "cashAdjustment": 11614,
+          "cashAdjustmentTolerance": 800,
+          "fipeBrandId": "23",
+          "fipeVersionCode": "7691"
+        }
+      ]
+    },
+    "contactInfo": {
+      "whatsapp": "+5511982189175",
+      "email": "roberto.lima@carmatch.test"
+    },
+    "images": [
+      "e6833420-0f63-4560-8202-e393c5dfe109.jpg",
+      "78d3f538-2c2b-4758-8fb3-31128655c13d.jpg"
+    ],
+    "createdAt": "2026-11-21T19:19:52.264Z",
+    "isActive": true,
+    "dossier": {
+      "inspection": true,
+      "confirmedAt": {
+        "inspection": "2026-11-21T19:19:53.984Z",
+        "serviceHistory": "2026-11-21T19:19:53.995Z",
+        "singleOwner": "2026-11-21T19:19:54.017Z"
+      },
+      "serviceHistory": true,
+      "singleOwner": true
+    }
+  },
+  {
+    "id": "e9a1d5f9-5a84-4c99-85f7-72d9470667f6",
+    "userId": "d5f1a6f1-dadc-4bb9-b0c4-2360bfab28a5",
+    "title": "GM - Chevrolet ONIX HATCH Joy 1.0 8V Flex 5p Mec. 2020",
+    "description": "Marcos troca GM - Chevrolet ONIX HATCH Joy 1.0 8V Flex 5p Mec. 2020. Carro 2020 · 74.000 km · Flex · documento em dia, IPVA pago. Aceita troca por modelo equivalente com acerto em dinheiro.",
+    "car": {
+      "brand": "GM - Chevrolet",
+      "model": "ONIX HATCH Joy 1.0 8V Flex 5p Mec.",
+      "year": 2020,
+      "estimatedValue": 54006,
+      "mileage": 74000,
+      "color": "Branco",
+      "localization": "Uberlândia - MG",
+      "fipeBrandId": "23",
+      "fipeModelCode": "7691",
+      "fipeYearCode": "2020-5"
+    },
+    "desiredTrade": {
+      "vehicles": [
+        {
+          "brand": "VW - VolksWagen",
+          "model": "Polo",
+          "yearMin": 2022,
+          "yearMax": 2026,
+          "mileageMax": 59500,
+          "cashAdjustment": 13797,
+          "cashAdjustmentTolerance": 1000,
+          "fipeBrandId": "59",
+          "fipeVersionCode": "10176"
+        }
+      ]
+    },
+    "contactInfo": {
+      "whatsapp": "+5511999563863",
+      "email": "marcos.vinicius@carmatch.test"
+    },
+    "images": [
+      "64277463-a093-40e7-a98a-d59f988779fe.jpg",
+      "e2b5e2eb-980f-4667-8b16-65b6bdc15dd7.jpg"
+    ],
+    "createdAt": "2026-11-21T19:19:52.280Z",
+    "isActive": true,
+    "dossier": {
+      "inspection": true,
+      "confirmedAt": {
+        "inspection": "2026-11-21T19:19:54.067Z"
+      }
+    }
+  },
+  {
+    "id": "29774ccc-c65d-4a46-9484-8f404fd26ea8",
+    "userId": "49ceb3ed-f0c2-4946-9ef5-093aff3399fd",
+    "title": "VW - VolksWagen Polo Track 1.0 Flex 12V 5p 2024",
+    "description": "Thiago troca VW - VolksWagen Polo Track 1.0 Flex 12V 5p 2024. Carro 2024 · 29.500 km · Flex · documento em dia, IPVA pago. Aceita troca por modelo equivalente com acerto em dinheiro.",
+    "car": {
+      "brand": "VW - VolksWagen",
+      "model": "Polo Track 1.0 Flex 12V 5p",
+      "year": 2024,
+      "estimatedValue": 67803,
+      "mileage": 29500,
+      "color": "Azul",
+      "localization": "Juiz de Fora - MG",
+      "fipeBrandId": "59",
+      "fipeModelCode": "10176",
+      "fipeYearCode": "2024-5"
+    },
+    "desiredTrade": {
+      "vehicles": [
+        {
+          "brand": "Hyundai",
+          "model": "HB20",
+          "transmission": "Automático",
+          "yearMin": 2019,
+          "yearMax": 2023,
+          "mileageMax": 77000,
+          "cashAdjustment": 2008,
+          "cashAdjustmentTolerance": 600,
+          "fipeBrandId": "26",
+          "fipeVersionCode": "8856"
+        }
+      ]
+    },
+    "contactInfo": {
+      "whatsapp": "+5511991612016",
+      "email": "thiago.moreira@carmatch.test"
+    },
+    "images": [
+      "2a3de615-2da2-416c-a4c4-852df7e5d948.jpg",
+      "7e0492c1-7ab2-4112-aadd-b45e96b07cc3.jpg"
+    ],
+    "createdAt": "2026-11-21T19:19:52.294Z",
+    "isActive": true
+  },
+  {
+    "id": "6a52041d-c7df-4594-965e-275f1299f482",
+    "userId": "58d47f7b-3130-4e04-9c28-1d4ed745f6dc",
+    "title": "Hyundai HB20 Vision 1.6 Flex 16V Aut 2021",
+    "description": "Carlos troca Hyundai HB20 Vision 1.6 Flex 16V Aut 2021. Carro 2021 · 47.000 km · Flex · documento em dia, IPVA pago. Aceita troca por modelo equivalente com acerto em dinheiro.",
+    "car": {
+      "brand": "Hyundai",
+      "model": "HB20 Vision 1.6 Flex 16V Aut",
+      "year": 2021,
+      "estimatedValue": 69811,
+      "mileage": 47000,
+      "color": "Cinza",
+      "localization": "Belo Horizonte - MG",
+      "fipeBrandId": "26",
+      "fipeModelCode": "8856",
+      "fipeYearCode": "2021-5"
+    },
+    "desiredTrade": {
+      "vehicles": [
+        {
+          "brand": "Ford",
+          "model": "Ka",
+          "yearMin": 2015,
+          "yearMax": 2019,
+          "mileageMax": 148500,
+          "cashAdjustment": -27419,
+          "cashAdjustmentTolerance": 1900,
+          "fipeBrandId": "22",
+          "fipeVersionCode": "6917"
+        }
+      ]
+    },
+    "contactInfo": {
+      "whatsapp": "+5511957845302",
+      "email": "carlos.henrique@carmatch.test"
+    },
+    "images": [
+      "45e6f894-7c0d-49cd-a39c-afe969808993.jpg",
+      "c9cb41ac-902d-4fe0-9061-aa7bbc31e804.jpg"
+    ],
+    "createdAt": "2026-11-21T19:19:52.307Z",
+    "isActive": true,
+    "dossier": {
+      "inspection": true,
+      "confirmedAt": {
+        "inspection": "2026-11-21T19:19:54.127Z",
+        "serviceHistory": "2026-11-21T19:19:54.137Z",
+        "singleOwner": "2026-11-21T19:19:54.157Z"
+      },
+      "serviceHistory": true,
+      "singleOwner": true
+    }
+  },
+  {
+    "id": "1031eafa-6dc9-4fd3-b1e0-f47792206a82",
+    "userId": "49ceb3ed-f0c2-4946-9ef5-093aff3399fd",
+    "title": "Renault SANDERO STEPWAY Flex 1.6 16V 5p 2018",
+    "description": "Thiago troca Renault SANDERO STEPWAY Flex 1.6 16V 5p 2018. Carro 2018 · 116.000 km · Flex · documento em dia, IPVA pago. Aceita troca por modelo equivalente com acerto em dinheiro.",
+    "car": {
+      "brand": "Renault",
+      "model": "SANDERO STEPWAY Flex 1.6 16V 5p",
+      "year": 2018,
+      "estimatedValue": 50970,
+      "mileage": 116000,
+      "color": "Prata",
+      "localization": "Curitiba - PR",
+      "fipeBrandId": "48",
+      "fipeModelCode": "7851",
+      "fipeYearCode": "2018-5"
+    },
+    "desiredTrade": {
+      "vehicles": [
+        {
+          "brand": "Jeep",
+          "model": "Renegade",
+          "transmission": "Automático",
+          "yearMin": 2017,
+          "yearMax": 2021,
+          "mileageMax": 94500,
+          "cashAdjustment": 18396,
+          "cashAdjustmentTolerance": 1300,
+          "fipeBrandId": "29",
+          "fipeVersionCode": "7188"
+        }
+      ]
+    },
+    "contactInfo": {
+      "whatsapp": "+5511959623910",
+      "email": "thiago.moreira@carmatch.test"
+    },
+    "images": [
+      "7f28372b-15a8-4d1d-a516-b3e73905d5aa.jpg",
+      "1e3655d5-6f29-4074-a9e1-2ebe9bc83fb6.jpg"
+    ],
+    "createdAt": "2026-11-21T19:19:52.324Z",
+    "isActive": true,
+    "dossier": {
+      "inspection": true,
+      "confirmedAt": {
+        "inspection": "2026-11-21T19:19:54.194Z"
+      }
+    }
+  },
+  {
+    "id": "82e4668a-90e3-47d8-8151-f0488d51ee74",
+    "userId": "58d47f7b-3130-4e04-9c28-1d4ed745f6dc",
+    "title": "Jeep Renegade Sport 1.8 4x2 Flex 16V Aut. 2019",
+    "description": "Carlos troca Jeep Renegade Sport 1.8 4x2 Flex 16V Aut. 2019. Carro 2019 · 64.500 km · Flex · documento em dia, IPVA pago. Aceita troca por modelo equivalente com acerto em dinheiro.",
+    "car": {
+      "brand": "Jeep",
+      "model": "Renegade Sport 1.8 4x2 Flex 16V Aut.",
+      "year": 2019,
+      "estimatedValue": 69366,
+      "mileage": 64500,
+      "color": "Prata",
+      "localization": "Porto Alegre - RS",
+      "fipeBrandId": "29",
+      "fipeModelCode": "7188",
+      "fipeYearCode": "2019-5"
+    },
+    "desiredTrade": {
+      "vehicles": [
+        {
+          "brand": "Toyota",
+          "model": "YARIS",
+          "transmission": "Automático",
+          "yearMin": 2017,
+          "yearMax": 2021,
+          "mileageMax": 106000,
+          "cashAdjustment": 4243,
+          "cashAdjustmentTolerance": 600,
+          "fipeBrandId": "56",
+          "fipeVersionCode": "8358"
+        }
+      ]
+    },
+    "contactInfo": {
+      "whatsapp": "+5511972941399",
+      "email": "carlos.henrique@carmatch.test"
+    },
+    "images": [
+      "388f7c6d-c0bb-46b9-8f3b-72a994b90815.jpg",
+      "5e8fb0c7-1278-4e22-aeba-7d732841044d.jpg"
+    ],
+    "createdAt": "2026-11-21T19:19:52.337Z",
+    "isActive": true
+  },
+  {
+    "id": "fa771815-4cc0-4313-96d4-e00240cc3cd4",
+    "userId": "1f552a93-8051-42a9-a942-a8337167213b",
+    "title": "Toyota YARIS XL 1.3 Flex 16V 5p Aut. 2019",
+    "description": "Roberto troca Toyota YARIS XL 1.3 Flex 16V 5p Aut. 2019. Carro 2019 · 76.000 km · Flex · documento em dia, IPVA pago. Aceita troca por modelo equivalente com acerto em dinheiro.",
+    "car": {
+      "brand": "Toyota",
+      "model": "YARIS XL 1.3 Flex 16V 5p Aut.",
+      "year": 2019,
+      "estimatedValue": 73609,
+      "mileage": 76000,
+      "color": "Prata",
+      "localization": "Florianópolis - SC",
+      "fipeBrandId": "56",
+      "fipeModelCode": "8358",
+      "fipeYearCode": "2019-5"
+    },
+    "desiredTrade": {
+      "vehicles": [
+        {
+          "brand": "Nissan",
+          "model": "KICKS",
+          "transmission": "Automático",
+          "yearMin": 2020,
+          "yearMax": 2024,
+          "mileageMax": 67500,
+          "cashAdjustment": 16909,
+          "cashAdjustmentTolerance": 1200,
+          "fipeBrandId": "43",
+          "fipeVersionCode": "9335"
+        }
+      ]
+    },
+    "contactInfo": {
+      "whatsapp": "+5511944976273",
+      "email": "roberto.lima@carmatch.test"
+    },
+    "images": [
+      "35fc3017-c18f-433b-b40a-9e2b18f0731f.jpg",
+      "f2c3b279-3046-4ed7-acd5-7bf3d4a5e590.jpg"
+    ],
+    "createdAt": "2026-11-21T19:19:52.350Z",
+    "isActive": true,
+    "dossier": {
+      "inspection": true,
+      "confirmedAt": {
+        "inspection": "2026-11-21T19:19:54.243Z",
+        "serviceHistory": "2026-11-21T19:19:54.253Z",
+        "singleOwner": "2026-11-21T19:19:54.272Z"
+      },
+      "serviceHistory": true,
+      "singleOwner": true
+    }
+  },
+  {
+    "id": "eaa4b119-688c-4378-9c7d-a943ec59f967",
+    "userId": "d5f1a6f1-dadc-4bb9-b0c4-2360bfab28a5",
+    "title": "Nissan KICKS Advance 1.6 16V Flex Aut. 2022",
+    "description": "Marcos troca Nissan KICKS Advance 1.6 16V Flex Aut. 2022. Carro 2022 · 37.500 km · Flex · documento em dia, IPVA pago. Aceita troca por modelo equivalente com acerto em dinheiro.",
+    "car": {
+      "brand": "Nissan",
+      "model": "KICKS Advance 1.6 16V Flex Aut.",
+      "year": 2022,
+      "estimatedValue": 90518,
+      "mileage": 37500,
+      "color": "Verde",
+      "localization": "Londrina - PR",
+      "fipeBrandId": "43",
+      "fipeModelCode": "9335",
+      "fipeYearCode": "2022-5"
+    },
+    "desiredTrade": {
+      "vehicles": [
+        {
+          "brand": "Honda",
+          "model": "HR-V",
+          "transmission": "Automático",
+          "yearMin": 2018,
+          "yearMax": 2022,
+          "mileageMax": 92000,
+          "cashAdjustment": 11435,
+          "cashAdjustmentTolerance": 800,
+          "fipeBrandId": "25",
+          "fipeVersionCode": "7150"
+        }
+      ]
+    },
+    "contactInfo": {
+      "whatsapp": "+5511969506520",
+      "email": "marcos.vinicius@carmatch.test"
+    },
+    "images": [
+      "ff02993f-78d8-4dc9-a29d-6c79bdf28153.jpg",
+      "726cbac6-c2ce-484b-aca4-c1d85f8c3930.jpg"
+    ],
+    "createdAt": "2026-11-21T19:19:52.366Z",
+    "isActive": true,
+    "dossier": {
+      "inspection": true,
+      "confirmedAt": {
+        "inspection": "2026-11-21T19:19:54.319Z"
+      }
+    }
+  },
+  {
+    "id": "9a86e4c8-2b0d-40ab-927d-b8be4f8bba92",
+    "userId": "49ceb3ed-f0c2-4946-9ef5-093aff3399fd",
+    "title": "Honda HR-V EX 1.8 Flexone 16V 5p Aut. 2020",
+    "description": "Thiago troca Honda HR-V EX 1.8 Flexone 16V 5p Aut. 2020. Carro 2020 · 62.000 km · Flex · documento em dia, IPVA pago. Aceita troca por modelo equivalente com acerto em dinheiro.",
+    "car": {
+      "brand": "Honda",
+      "model": "HR-V EX 1.8 Flexone 16V 5p Aut.",
+      "year": 2020,
+      "estimatedValue": 101953,
+      "mileage": 62000,
+      "color": "Marrom",
+      "localization": "Curitiba - PR",
+      "fipeBrandId": "25",
+      "fipeModelCode": "7150",
+      "fipeYearCode": "2020-5"
+    },
+    "desiredTrade": {
+      "vehicles": [
+        {
+          "brand": "Renault",
+          "model": "SANDERO",
+          "yearMin": 2016,
+          "yearMax": 2020,
+          "mileageMax": 146000,
+          "cashAdjustment": -50983,
+          "cashAdjustmentTolerance": 3600,
+          "fipeBrandId": "48",
+          "fipeVersionCode": "7851"
+        }
+      ]
+    },
+    "contactInfo": {
+      "whatsapp": "+5511989019813",
+      "email": "thiago.moreira@carmatch.test"
+    },
+    "images": [
+      "385937e0-b065-407e-9033-0db9c3d6e0bd.jpg",
+      "73f8d41a-9d58-4ddd-be40-3fe16bac0f38.jpg"
+    ],
+    "createdAt": "2026-11-21T19:19:52.381Z",
+    "isActive": true
+  },
+  {
+    "id": "348ac30f-90bd-49d9-a113-5fef792f15ac",
+    "userId": "fb3da0ed-cd3d-42c7-a917-2a6c6d7e3e3f",
+    "title": "Fiat CRONOS DRIVE 1.0 6V Flex 2024",
+    "description": "Fernanda troca Fiat CRONOS DRIVE 1.0 6V Flex 2024. Carro 2024 · 18.500 km · Flex · documento em dia, IPVA pago. Aceita troca por modelo equivalente com acerto em dinheiro.",
+    "car": {
+      "brand": "Fiat",
+      "model": "CRONOS DRIVE 1.0 6V Flex",
+      "year": 2024,
+      "estimatedValue": 73012,
+      "mileage": 18500,
+      "color": "Cinza",
+      "localization": "Salvador - BA",
+      "fipeBrandId": "21",
+      "fipeModelCode": "9989",
+      "fipeYearCode": "2024-5"
+    },
+    "desiredTrade": {
+      "vehicles": [
+        {
+          "brand": "VW - VolksWagen",
+          "model": "T-Cross",
+          "transmission": "Manual",
+          "yearMin": 2019,
+          "yearMax": 2023,
+          "mileageMax": 93500,
+          "cashAdjustment": 15599,
+          "cashAdjustmentTolerance": 1100,
+          "fipeBrandId": "59",
+          "fipeVersionCode": "8642"
+        }
+      ],
+      "maxDistance": 100
+    },
+    "contactInfo": {
+      "whatsapp": "+5511954521313",
+      "email": "fernanda.alves@carmatch.test"
+    },
+    "images": [
+      "7f0b4e5d-39d2-4fc7-9301-255daaab8300.jpg",
+      "f775f489-8bca-45e3-a055-55e6703150b7.jpg"
+    ],
+    "createdAt": "2026-11-21T19:19:52.394Z",
+    "isActive": true,
+    "dossier": {
+      "inspection": true,
+      "confirmedAt": {
+        "inspection": "2026-11-21T19:19:54.368Z",
+        "serviceHistory": "2026-11-21T19:19:54.379Z",
+        "singleOwner": "2026-11-21T19:19:54.429Z"
+      },
+      "serviceHistory": true,
+      "singleOwner": true
+    }
+  },
+  {
+    "id": "3d4e925b-355e-416b-afbb-829eb40cf915",
+    "userId": "d5f1a6f1-dadc-4bb9-b0c4-2360bfab28a5",
+    "title": "VW - VolksWagen T-Cross 1.0 TSI Flex 12V 5p Mec. 2021",
+    "description": "Marcos troca VW - VolksWagen T-Cross 1.0 TSI Flex 12V 5p Mec. 2021. Carro 2021 · 63.500 km · Flex · documento em dia, IPVA pago. Aceita troca por modelo equivalente com acerto em dinheiro.",
+    "car": {
+      "brand": "VW - VolksWagen",
+      "model": "T-Cross 1.0 TSI Flex 12V 5p Mec.",
+      "year": 2021,
+      "estimatedValue": 88611,
+      "mileage": 63500,
+      "color": "Branco",
+      "localization": "Recife - PE",
+      "fipeBrandId": "59",
+      "fipeModelCode": "8642",
+      "fipeYearCode": "2021-5"
+    },
+    "desiredTrade": {
+      "vehicles": [
+        {
+          "brand": "Fiat",
+          "model": "CRONOS",
+          "yearMin": 2022,
+          "yearMax": 2026,
+          "mileageMax": 48500,
+          "cashAdjustment": -15599,
+          "cashAdjustmentTolerance": 1100,
+          "fipeBrandId": "21",
+          "fipeVersionCode": "9989"
+        }
+      ]
+    },
+    "contactInfo": {
+      "whatsapp": "+5511969672151",
+      "email": "marcos.vinicius@carmatch.test"
+    },
+    "images": [
+      "bb67f3cb-f085-4350-8451-d22fa179c248.jpg",
+      "f26d92c6-21c1-4e38-8737-7737f07a5f95.jpg"
+    ],
+    "createdAt": "2026-11-21T19:19:52.410Z",
+    "isActive": true,
+    "dossier": {
+      "inspection": true,
+      "confirmedAt": {
+        "inspection": "2026-11-21T19:19:54.469Z"
+      }
+    }
+  },
+  {
+    "id": "5fd2f24a-bd05-4241-a78f-22132a95808f",
+    "userId": "38562403-0e06-45f1-a5fe-84f0a05c278a",
+    "title": "GM - Chevrolet TRACKER LT 1.8 16V Flex 4x2 Aut. 2016",
+    "description": "Patrícia troca GM - Chevrolet TRACKER LT 1.8 16V Flex 4x2 Aut. 2016. Carro 2016 · 149.000 km · Flex · documento em dia, IPVA pago. Aceita troca por modelo equivalente com acerto em dinheiro.",
+    "car": {
+      "brand": "GM - Chevrolet",
+      "model": "TRACKER LT 1.8 16V Flex 4x2 Aut.",
+      "year": 2016,
+      "estimatedValue": 65128,
+      "mileage": 149000,
+      "color": "Prata",
+      "localization": "Goiânia - GO",
+      "fipeBrandId": "23",
+      "fipeModelCode": "7428",
+      "fipeYearCode": "2016-5"
+    },
+    "desiredTrade": {
+      "vehicles": [
+        {
+          "brand": "Hyundai",
+          "model": "Creta",
+          "transmission": "Automático",
+          "yearMin": 2015,
+          "yearMax": 2019,
+          "mileageMax": 122000,
+          "cashAdjustment": 14236,
+          "cashAdjustmentTolerance": 1000,
+          "fipeBrandId": "26",
+          "fipeVersionCode": "7831"
+        }
+      ]
+    },
+    "contactInfo": {
+      "whatsapp": "+5511978594258",
+      "email": "patricia.nunes@carmatch.test"
+    },
+    "images": [
+      "bea892f8-c4c2-4927-b4c6-78aa64c43008.jpg",
+      "17302dc0-6b33-4b8c-bf97-af1f2cabe3c7.jpg"
+    ],
+    "createdAt": "2026-11-21T19:19:52.427Z",
+    "isActive": true
+  },
+  {
+    "id": "53d923cf-d3c1-41c9-991d-ef315be8dbed",
+    "userId": "49ceb3ed-f0c2-4946-9ef5-093aff3399fd",
+    "title": "Hyundai Creta Pulse 1.6 16V Flex Aut. 2017",
+    "description": "Thiago troca Hyundai Creta Pulse 1.6 16V Flex Aut. 2017. Carro 2017 · 92.000 km · Flex · documento em dia, IPVA pago. Aceita troca por modelo equivalente com acerto em dinheiro.",
+    "car": {
+      "brand": "Hyundai",
+      "model": "Creta Pulse 1.6 16V Flex Aut.",
+      "year": 2017,
+      "estimatedValue": 79364,
+      "mileage": 92000,
+      "color": "Marrom",
+      "localization": "Brasília - DF",
+      "fipeBrandId": "26",
+      "fipeModelCode": "7831",
+      "fipeYearCode": "2017-5"
+    },
+    "desiredTrade": {
+      "vehicles": [
+        {
+          "brand": "GM - Chevrolet",
+          "model": "TRACKER",
+          "transmission": "Automático",
+          "yearMin": 2014,
+          "yearMax": 2018,
+          "mileageMax": 179000,
+          "cashAdjustment": -14236,
+          "cashAdjustmentTolerance": 1000,
+          "fipeBrandId": "23",
+          "fipeVersionCode": "7428"
+        }
+      ],
+      "maxDistance": 200
+    },
+    "contactInfo": {
+      "whatsapp": "+5511909364134",
+      "email": "thiago.moreira@carmatch.test"
+    },
+    "images": [
+      "c06b93a7-aeef-4e77-8893-dd4b70016e91.jpg",
+      "cf5c6132-5413-437e-b051-b87b47763d8a.jpg"
+    ],
+    "createdAt": "2026-11-21T19:19:52.444Z",
+    "isActive": true,
+    "dossier": {
+      "inspection": true,
+      "confirmedAt": {
+        "inspection": "2026-11-21T19:19:54.520Z",
+        "serviceHistory": "2026-11-21T19:19:54.531Z",
+        "singleOwner": "2026-11-21T19:19:54.551Z"
+      },
+      "serviceHistory": true,
+      "singleOwner": true
+    }
+  }
+]

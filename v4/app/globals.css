@@ -1,0 +1,105 @@
+@import "tailwindcss";
+
+/*
+  CarMatch design tokens.
+
+  The v0 screens each picked their own greys, radii and font sizes, so the app
+  read as a set of unrelated pages. Everything visual now comes from the values
+  below, which keeps the interface coherent without changing the flows.
+*/
+@theme {
+  /* Warm-neutral ink scale: the product is an analysis tool, so the greys carry
+     a little paper warmth instead of the old blue-grey. Token names are kept
+     identical so every existing component keeps working. */
+  --color-ink-50: #faf7f2;
+  --color-ink-100: #f3ede3;
+  --color-ink-200: #e8ddcf;
+  --color-ink-300: #d5c6b2;
+  --color-ink-400: #a89883;
+  --color-ink-500: #7b6a56;
+  --color-ink-600: #5c4d3d;
+  --color-ink-700: #43382c;
+  --color-ink-800: #2c241c;
+  --color-ink-900: #1a1511;
+
+  /* Amber/orange financial accent. brand-600 is darker than amber-500 on
+     purpose: white text on it keeps >4.5:1 contrast for buttons and links. */
+  --color-brand-50: #fff8eb;
+  --color-brand-100: #ffedd0;
+  --color-brand-200: #ffdba5;
+  --color-brand-500: #f59e0b;
+  --color-brand-600: #b45309;
+  --color-brand-700: #92400e;
+
+  --radius-card: 0.875rem;
+}
+
+@layer base {
+  html {
+    -webkit-text-size-adjust: 100%;
+  }
+
+  body {
+    font-family:
+      -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue",
+      Arial, sans-serif;
+    background: var(--color-ink-50);
+    color: var(--color-ink-900);
+  }
+
+  /* One consistent focus treatment; the original relied on browser defaults
+     that were invisible on white cards. */
+  :focus-visible {
+    outline: 2px solid var(--color-brand-500);
+    outline-offset: 2px;
+    border-radius: 4px;
+  }
+
+  ::selection {
+    background: var(--color-brand-100);
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+    }
+  }
+}
+
+@layer components {
+  .input-field {
+    @apply w-full rounded-lg border border-ink-200 bg-white px-3 py-2.5 text-sm
+      text-ink-900 placeholder:text-ink-400 transition-colors
+      focus:border-brand-500 focus:outline-none focus-visible:outline-none
+      focus:ring-4 focus:ring-brand-500/10;
+  }
+
+  .btn-primary {
+    @apply inline-flex items-center justify-center gap-2 rounded-lg bg-brand-600
+      px-4 py-2.5 text-sm font-semibold text-white transition-colors
+      hover:bg-brand-700 disabled:cursor-not-allowed disabled:opacity-60;
+  }
+
+  .btn-ghost {
+    @apply inline-flex items-center justify-center gap-2 rounded-lg border
+      border-ink-200 bg-white px-3 py-2 text-sm font-medium text-ink-700
+      transition-colors hover:border-ink-300 hover:bg-ink-50;
+  }
+
+  .card {
+    @apply rounded-[var(--radius-card)] border border-ink-200 bg-white;
+  }
+
+  .chip {
+    @apply inline-flex items-center gap-1 rounded-full bg-ink-100 px-2.5 py-1
+      text-[11px] font-medium text-ink-600;
+  }
+
+  .skeleton {
+    @apply animate-pulse rounded-md bg-ink-100;
+  }
+}

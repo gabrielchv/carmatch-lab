@@ -1,0 +1,26 @@
+[
+  {
+    "id": "c6d2957b-46cd-4f0a-b5c2-4ea2e69e5b47",
+    "postId": "3067787a-67f6-40d8-9383-062a608dc28e",
+    "participantIds": [
+      "0cb92bfd-f39b-49f9-92ea-a3e70acbf075",
+      "18f1f16f-0abb-4f99-b449-ccae7d83fa5d"
+    ],
+    "matchId": "ae192a33-8d2d-4989-95c5-4519e517ff91",
+    "createdAt": "2026-11-21T19:19:56.188Z",
+    "updatedAt": "2026-11-21T19:19:56.188Z",
+    "lastReadAt": {}
+  },
+  {
+    "id": "875e3bfc-a394-43db-a39c-c49c5e971493",
+    "postId": "b09bb98c-77c3-4493-aa7d-347101eea71e",
+    "participantIds": [
+      "2822d2e3-5e98-42c0-a772-d8235ccc626e",
+      "b28f9025-a435-401c-9464-c4c974bc3e1f"
+    ],
+    "matchId": "b3578847-cb3e-4a37-98da-0f182715729c",
+    "createdAt": "2026-11-21T19:19:56.222Z",
+    "updatedAt": "2026-11-21T19:19:56.222Z",
+    "lastReadAt": {}
+  }
+]

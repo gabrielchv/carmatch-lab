@@ -1,0 +1,23 @@
+node_modules
+.next
+.git
+data
+public/uploads
+*.md
+.vscode
+README.md
+.DS_Store
+.gitignore
+tsconfig.tsbuildinfo
+
+# Never bake secrets or local-only switches into an image layer.
+# `.env.local` holds GOOGLE_CLIENT_SECRET, SESSION_SECRET, DEBUG_TOKEN and
+# ALLOW_DEV_LOGIN — all of which must come from the runtime environment.
+.env
+.env.*
+!.env.example
+!.env.local.example
+
+# Local artefacts
+playwright-report
+test-results
