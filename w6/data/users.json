@@ -1,0 +1,96 @@
+[
+  {
+    "id": "975e8d92-63cd-48ed-8da5-4d074ee59cf6",
+    "name": "Ana Beatriz",
+    "email": "ana.beatriz@carmatch.test",
+    "provider": "email",
+    "whatsapp": "+5511919765824",
+    "createdAt": "2026-11-22T02:20:24.644Z"
+  },
+  {
+    "id": "ea3be38e-a7c6-486d-a93e-43c0fb04b1cd",
+    "name": "Carlos Henrique",
+    "email": "carlos.henrique@carmatch.test",
+    "provider": "email",
+    "whatsapp": "+5511923345212",
+    "createdAt": "2026-11-22T02:20:24.656Z"
+  },
+  {
+    "id": "6bdac766-c6fd-4282-8fdb-8fe2c558ce02",
+    "name": "Juliana Prado",
+    "email": "juliana.prado@carmatch.test",
+    "provider": "email",
+    "whatsapp": "+5511921484247",
+    "createdAt": "2026-11-22T02:20:24.670Z"
+  },
+  {
+    "id": "1643d959-3e9a-457b-9b25-be61e641a352",
+    "name": "Roberto Lima",
+    "email": "roberto.lima@carmatch.test",
+    "provider": "email",
+    "whatsapp": "+5511920771537",
+    "createdAt": "2026-11-22T02:20:24.681Z"
+  },
+  {
+    "id": "ebe24f64-159d-46b4-9f36-b9684eb1cc52",
+    "name": "Fernanda Alves",
+    "email": "fernanda.alves@carmatch.test",
+    "provider": "email",
+    "whatsapp": "+5511922244471",
+    "createdAt": "2026-11-22T02:20:24.702Z"
+  },
+  {
+    "id": "ef5d0f61-1b77-4e6f-a53c-e43b5dc24600",
+    "name": "Marcos Vinícius",
+    "email": "marcos.vinicius@carmatch.test",
+    "provider": "email",
+    "whatsapp": "+5511923424402",
+    "createdAt": "2026-11-22T02:20:24.721Z"
+  },
+  {
+    "id": "ca1ca940-4fb7-4dae-9eb6-9cedb38551da",
+    "name": "Patrícia Nunes",
+    "email": "patricia.nunes@carmatch.test",
+    "provider": "email",
+    "whatsapp": "+5511922466203",
+    "createdAt": "2026-11-22T02:20:24.758Z"
+  },
+  {
+    "id": "b89ad256-f0c7-4143-b6d1-6522a2b3c947",
+    "name": "Thiago Moreira",
+    "email": "thiago.moreira@carmatch.test",
+    "provider": "email",
+    "whatsapp": "+5511922379094",
+    "createdAt": "2026-11-22T02:20:24.766Z"
+  },
+  {
+    "id": "ffe91e08-3414-436b-8d5c-88a06ef56858",
+    "name": "teste",
+    "email": "teste@email.com",
+    "provider": "email",
+    "whatsapp": "+5511946140288",
+    "createdAt": "2026-11-22T19:02:23.902Z",
+    "onboarding": {
+      "completedAt": "2026-11-22T19:16:00.627Z",
+      "have": {
+        "brand": "Honda",
+        "model": "Fit LX 1.4/ 1.4 Flex 8V/16V 5p Aut.",
+        "year": 2008,
+        "estimatedValue": 34685
+      },
+      "want": {
+        "brand": "Honda",
+        "model": "Civic Sedan EXR 2.0 Flexone 16V Aut. 4p"
+      },
+      "city": ""
+    }
+  },
+  {
+    "id": "fc07d525-8158-4fd5-9db2-a45bf1713e65",
+    "name": "Teste W6",
+    "email": "teste-w6-3606@local.test",
+    "provider": "email",
+    "whatsapp": "+5511987654321",
+    "createdAt": "2026-11-22T20:06:31.022Z"
+  }
+]

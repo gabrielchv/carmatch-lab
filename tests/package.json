@@ -1,0 +1,17 @@
+{
+  "name": "carmatch-tests",
+  "private": true,
+  "type": "module",
+  "description": "Testes do CarMatch Lab (unitários, API e ponta a ponta)",
+  "scripts": {
+    "test": "node run.mjs",
+    "test:unit": "node --test unit/",
+    "test:watch": "node --test --watch unit/",
+    "test:all": "node run.mjs --all",
+    "test:watch:all": "node run.mjs --all --loop"
+  },
+  "devDependencies": {
+    "playwright-core": "^1.49.0",
+    "tsx": "^4.23.15"
+  }
+}
